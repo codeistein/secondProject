@@ -1,0 +1,202 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+body { 
+	background: black !important; 
+}
+
+ footer{
+ 	background: red !important;
+ }
+
+.padding{
+	
+	
+
+}
+
+#homeImage{
+	border: 1px solid red;
+}
+
+
+.navbar{
+	
+	
+	font-size: 1.2em;
+}
+
+.navbar-brand{
+	min-height: 55px;
+	padding:0 10px 5px;
+	color:black;
+}
+.navbar-brand h2{
+	color:black;
+}
+
+.navbar-default .navbar-nav li a{
+	color: black;
+}
+.navbar-default .navbar-nav li a:hover{
+	color: red;
+}
+
+.landing-text{
+
+  padding-top: 20%;
+  text-align: center;
+
+}
+
+.landing-text h1{
+	color: white;
+	font-size: 500%;
+	font-weight: 700;
+}
+
+.landing-text h3{
+	color: white;
+	font-weight: 600;
+	
+}
+
+#section2 h2{
+	color:white;
+}
+
+
+
+#pDistance{
+	height: 100px;
+	width: 100%;
+}
+
+#fixed{
+	border-top: 1px solid red;
+}
+
+#contact-us{
+	color: white;
+	text-align: center;
+	font-weight: 700;
+}
+
+
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+
+  /* To see the limits of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all label have the same size and are properly align */
+  display: inline-block;
+  width: 90px;
+  text-align: left;
+  color: white;
+}
+
+input, textarea {
+  /* To make sure that all text field have the same font settings
+     By default, textarea are set with a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text field */
+  width: 300px;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highligh on active elements */
+  border-color: #000;
+}
+
+textarea {
+  /* To properly align multiline text field with their label */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+
+  /* To allow users to resize any textarea vertically
+     It works only on Chrome, Firefox and Safari */
+  resize: vertical;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra magin represent the same space as the space between
+     the labels and their text fields */
+  margin-left: .5em;
+}
+
+ 
+
+
+ #footerDiv{
+ 	color:white;
+ }
+
+
+ h1 { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+
+}
+
+h2 { 
+    color: white;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+#third {
+    font-size: small;
+}
+
+td {
+    padding: 10px;
+    color: white;
+}
+
+.even{
+    background-color:red;
+    font-weight: bold;
+}
+
+.yellow {
+    color: black;
+    background-color: white;
+}
+
+#someSpace{
+height: 100px;
+width: 100%;
+}
